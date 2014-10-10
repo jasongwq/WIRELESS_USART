@@ -1,0 +1,34 @@
+T0CC0 009:165 SEGGER J-Link V4.80g Log File (0000ms, 3888ms total)
+T0CC0 009:165 DLL Compiled: Feb 13 2014 20:50:02 (0000ms, 3888ms total)
+T0CC0 009:165 Logging started @ 2014-08-12 20:11 (0000ms, 3888ms total)
+T0CC0 009:165 JLINK_SetWarnOutHandler(...) (0000ms, 3888ms total)
+T0CC0 009:165 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 25 2013 19:20:08
+Hardware: V8.00
+S/N: 17935099
+Feature(s): RDI,FlashDL,FlashBP,JFlash  returns O.K. (0263ms, 4151ms total)
+T0CC0 009:428 JLINK_SetErrorOutHandler(...) (0000ms, 4151ms total)
+T0CC0 009:429 JLINK_ExecCommand("ProjectFile = "E:\WORK\Contest\BOOTCAMP2014\STM32F0_WIRELESS_USART\USER_STM32F0_WIRELESS_USART\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 4151ms total)
+T0CC0 009:429 JLINK_ExecCommand("Device = STM32F030F4", ...)Device "STM32F030F4" selected (16 KB flash, 4 KB RAM).  returns 0x00 (0000ms, 4151ms total)
+T0CC0 009:429 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 4152ms total)
+T0CC0 009:430 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 4152ms total)
+T0CC0 009:430 JLINK_GetDLLVersion()  returns 48007 (0000ms, 4152ms total)
+T0CC0 009:430 JLINK_GetFirmwareString(...) (0000ms, 4152ms total)
+T0CC0 009:430 JLINK_GetDLLVersion()  returns 48007 (0000ms, 4152ms total)
+T0CC0 009:430 JLINK_GetCompileDateTime() (0000ms, 4152ms total)
+T0CC0 009:430 JLINK_GetFirmwareString(...) (0000ms, 4152ms total)
+T0CC0 009:430 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 4152ms total)
+T0CC0 009:430 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 4154ms total)
+T0CC0 009:432 JLINK_SetSpeed(1000) (0000ms, 4154ms total)
+T0CC0 009:433 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 4154ms total)
+T0CC0 009:433 JLINK_Reset() >0x108 TIF> >0x108 TIF>STM32F0xxx: Can not connect to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32F0xxx: Connecting to CPU via connect under reset failed.JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32F0xxx: Can not connect to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32F0xxx: Connecting to CPU via connect under reset failed.  returns 0x00000000 (0513ms, 5180ms total)
+T0CC0 010:460 JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32F0xxx: Can not connect to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+  ***** Error: STM32F0xxx: Connecting to CPU via connect under reset failed.  returns 0x00000000 (0512ms, 5692ms total)
+T0CC0 010:973 JLINK_GetFirmwareString(...) (0000ms, 5692ms total)
+T0AD4 010:973 
+  ***** Error: Connection to emulator lost! (31593ms, 37285ms total)
+T0CC0 052:182 JLINK_Close() (0000ms, 5692ms total)
+T0CC0 052:182  (0000ms, 5692ms total)
+T0CC0 052:182 Closed (0000ms, 5692ms total)
